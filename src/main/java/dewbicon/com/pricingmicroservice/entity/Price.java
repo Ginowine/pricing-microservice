@@ -8,7 +8,6 @@ import java.math.BigDecimal;
 
 @Entity
 public class Price {
-
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
